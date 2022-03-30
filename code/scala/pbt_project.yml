@@ -25,6 +25,17 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: vernon.schiller@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-30 07:42:57'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: ''
@@ -81,5 +92,10 @@ workflows:
       outputs: []
     dependencies: {}
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Dr__Lamont_Doyle:
+    name: Dr__Lamont_Doyle
+    description: Really solid info
+    createdAt: '2022-03-30 07:42:57'
+    author: vernon.schiller@yahoo.com
 libraries: []
